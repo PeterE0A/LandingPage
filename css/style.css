@@ -127,7 +127,8 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: olive;
+    background: black;
+    height: 600px;
     
     
 }
@@ -136,13 +137,14 @@ text-align: center;
     display: flex;
     justify-content: center;
     gap: 30px;
+   
 }
 
 .title{
     padding: 40px;
     font-size: 40px;
     font-weight: bold;
-   
+   color: white;
 }
 
 .box{
@@ -165,11 +167,90 @@ text-align: center;
 }
 
 .image:hover {
-    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.2), 0 20px 50px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 30px 50px rgb(255, 255, 255), 0 20px 50px 0 rgb(255, 255, 255);
     
 }
 
+.box-title{
+    margin: 20px;
+}
 
+.text{
+    color: white;
+    font-weight: bold;
+}
 
+.About{
+    background: rgb(255, 255, 255);
+    height: 350px;
+}
 
+.about-text{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 5px 100px;
+}
 
+.about-text:hover{
+
+color: #ff9100de;
+text-shadow:0px 0px 30px #fdec6e ;
+-moz-transition: all 0.2s ease-in;
+-o-transition: all 0.2s ease-in;
+-webkit-transition: all 0.2s ease-in;
+transition: all 0.2s ease-in;
+}
+
+.about-title{
+    padding: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.contact{
+    background: black;
+    height: 300px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.contact-p{
+    margin: 10px 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact-button{
+    background: rgb(255, 166, 0);
+    padding: 15px;
+   /* margin: 0px 200px;
+   margin-top: 30px; */
+    border-radius: 15px;
+    text-decoration: none;
+color: #fff;
+text-align: center;
+font-weight: bold;
+   
+}
+
+.ct-button{
+    margin-top: 35px;
+}
+
+.contact-button:hover {
+    background-color: white;
+    color: orange;
+    border: 5px solid orange;
+    font-weight: bold;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
